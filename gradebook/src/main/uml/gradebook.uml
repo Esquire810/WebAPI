@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.web.gradebook</OriginalElement>
+  <nodes>
+    <node x="1541.6814236111109" y="102.0">com.web.gradebook.GradebookApplicationTest</node>
+    <node x="205.57799253697686" y="0.0">com.web.gradebook.Subject</node>
+    <node x="250.50000000000006" y="894.5">com.web.gradebook.MarkRepository</node>
+    <node x="604.7885664682539" y="299.0">com.web.gradebook.Mark</node>
+    <node x="1552.6814236111109" y="0.0">com.web.gradebook.GradebookApplication</node>
+    <node x="1288.1814236111109" y="1172.0">com.web.gradebook.GBServiceTest</node>
+    <node x="572.9579735224264" y="1792.0">com.web.gradebook.GBController</node>
+    <node x="915.681423611111" y="894.5">com.web.gradebook.GroupRepository</node>
+    <node x="690.681423611111" y="740.0">com.web.gradebook.Student</node>
+    <node x="1102.66132587031" y="365.0">com.web.gradebook.Group</node>
+    <node x="1014.181423611111" y="1161.0">com.web.gradebook.StudentRepository</node>
+    <node x="505.50000000000006" y="1295.0">com.web.gradebook.GBService</node>
+    <node x="46.5" y="453.5">com.web.gradebook.SubjRepository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.web.gradebook.Subject" target="com.web.gradebook.Mark">
+      <point x="91.11111111111109" y="114.5" />
+      <point x="399.18910364808795" y="249.0" />
+      <point x="772.7885664682539" y="249.0" />
+      <point x="72.0" y="-180.5" />
+    </edge>
+    <edge source="com.web.gradebook.GradebookApplicationTest" target="com.web.gradebook.GradebookApplication">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.web.gradebook.Mark" target="com.web.gradebook.Subject">
+      <point x="-24.0" y="-180.5" />
+      <point x="676.7885664682539" y="269.0" />
+      <point x="353.6335480925324" y="269.0" />
+      <point x="45.55555555555554" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBService" target="com.web.gradebook.Subject">
+      <point x="-82.1875" y="-213.5" />
+      <point x="554.8125" y="1265.0" />
+      <point x="240.00000000000006" y="1265.0" />
+      <point x="240.00000000000006" y="279.0" />
+      <point x="285.3002147591991" y="279.0" />
+      <point x="-22.77777777777777" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBService" target="com.web.gradebook.SubjRepository">
+      <point x="-115.0625" y="-213.5" />
+      <point x="521.9375" y="1275.0" />
+      <point x="138.0" y="1275.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.web.gradebook.Group" target="com.web.gradebook.Student">
+      <point x="-62.72727272727275" y="114.5" />
+      <point x="1154.9340531430373" y="700.0" />
+      <point x="857.243923611111" y="700.0" />
+      <point x="64.0625" y="-180.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBService" target="com.web.gradebook.Student">
+      <point x="16.4375" y="-213.5" />
+      <point x="653.4375" y="1275.0" />
+      <point x="642.5" y="1275.0" />
+      <point x="642.5" y="1141.0" />
+      <point x="707.7647569444443" y="1141.0" />
+      <point x="-85.41666666666663" y="180.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBService" target="com.web.gradebook.Group">
+      <point x="115.0625" y="-213.5" />
+      <point x="752.0625" y="1275.0" />
+      <point x="1460.6814236111109" y="1275.0" />
+      <point x="1460.6814236111109" y="700.0" />
+      <point x="1280.3885985975828" y="700.0" />
+      <point x="62.72727272727269" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.MarkRepository" target="com.web.gradebook.Subject">
+      <point x="-58.5" y="-26.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBController" target="com.web.gradebook.Mark">
+      <point x="-56.0625" y="-202.5" />
+      <point x="666.3954735224264" y="1752.0" />
+      <point x="495.00000000000006" y="1752.0" />
+      <point x="495.00000000000006" y="710.0" />
+      <point x="645.9314236111111" y="710.0" />
+      <point x="-54.85714285714283" y="180.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBController" target="com.web.gradebook.Group">
+      <point x="130.8125" y="-202.5" />
+      <point x="853.2704735224264" y="1772.0" />
+      <point x="1482.6814236111109" y="1772.0" />
+      <point x="1482.6814236111109" y="680.0" />
+      <point x="1322.2067804157646" y="680.0" />
+      <point x="104.54545454545445" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.Mark" target="com.web.gradebook.Student">
+      <point x="54.85714285714289" y="180.5" />
+      <point x="-38.4375" y="-180.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBController" target="com.web.gradebook.Student">
+      <point x="56.0625" y="-202.5" />
+      <point x="778.5204735224264" y="1772.0" />
+      <point x="790.0" y="1772.0" />
+      <point x="790.0" y="1131.0" />
+      <point x="776.0980902777776" y="1131.0" />
+      <point x="-17.083333333333314" y="180.5" />
+    </edge>
+    <edge source="com.web.gradebook.Student" target="com.web.gradebook.Mark">
+      <point x="-89.6875" y="-180.5" />
+      <point x="703.493923611111" y="720.0" />
+      <point x="700.7885664682539" y="720.0" />
+      <point x="0.0" y="180.5" />
+    </edge>
+    <edge source="com.web.gradebook.SubjRepository" target="com.web.gradebook.Subject">
+      <point x="0.0" y="-26.0" />
+      <point x="138.0" y="269.0" />
+      <point x="262.5224369814213" y="269.0" />
+      <point x="-45.55555555555554" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.GroupRepository" target="com.web.gradebook.Group">
+      <point x="0.0" y="-26.0" />
+      <point x="1003.681423611111" y="720.0" />
+      <point x="1196.7522349612193" y="720.0" />
+      <point x="-20.909090909090878" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBServiceTest" target="com.web.gradebook.Group">
+      <point x="20.25" y="-26.0" />
+      <point x="1389.4314236111109" y="1141.0" />
+      <point x="1403.3333333333333" y="1141.0" />
+      <point x="1403.3333333333333" y="720.0" />
+      <point x="1238.570416779401" y="720.0" />
+      <point x="20.909090909090935" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBController" target="com.web.gradebook.GBService">
+      <point x="-18.6875" y="-202.5" />
+      <point x="703.7704735224264" y="1742.0" />
+      <point x="637.0" y="1742.0" />
+      <point x="0.0" y="213.5" />
+    </edge>
+    <edge source="com.web.gradebook.Student" target="com.web.gradebook.Group">
+      <point x="12.8125" y="-180.5" />
+      <point x="805.993923611111" y="680.0" />
+      <point x="1113.1158713248556" y="680.0" />
+      <point x="-104.54545454545456" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBService" target="com.web.gradebook.StudentRepository">
+      <point x="82.1875" y="-213.5" />
+      <point x="719.1875" y="1265.0" />
+      <point x="1141.1814236111109" y="1265.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.web.gradebook.GBController" target="com.web.gradebook.Subject">
+      <point x="-93.4375" y="-202.5" />
+      <point x="629.0204735224264" y="1762.0" />
+      <point x="36.0" y="1762.0" />
+      <point x="36.0" y="259.0" />
+      <point x="239.74465920364355" y="259.0" />
+      <point x="-68.33333333333331" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBServiceTest" target="com.web.gradebook.Student">
+      <point x="-60.75" y="-26.0" />
+      <point x="1308.4314236111109" y="1131.0" />
+      <point x="844.431423611111" y="1131.0" />
+      <point x="51.25" y="180.5" />
+    </edge>
+    <edge source="com.web.gradebook.MarkRepository" target="com.web.gradebook.Mark">
+      <point x="58.5" y="-26.0" />
+      <point x="426.00000000000006" y="700.0" />
+      <point x="618.5028521825395" y="700.0" />
+      <point x="-82.28571428571428" y="180.5" />
+    </edge>
+    <edge source="com.web.gradebook.GBService" target="com.web.gradebook.GroupRepository">
+      <point x="49.3125" y="-213.5" />
+      <point x="686.3125" y="1255.0" />
+      <point x="1003.681423611111" y="1255.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.web.gradebook.GBService" target="com.web.gradebook.MarkRepository">
+      <point x="-49.3125" y="-213.5" />
+      <point x="587.6875" y="1255.0" />
+      <point x="367.50000000000006" y="1255.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.web.gradebook.GBService" target="com.web.gradebook.Mark">
+      <point x="-16.4375" y="-213.5" />
+      <point x="620.5625" y="1275.0" />
+      <point x="631.5" y="1275.0" />
+      <point x="631.5" y="720.0" />
+      <point x="673.3599950396824" y="720.0" />
+      <point x="-27.428571428571416" y="180.5" />
+    </edge>
+    <edge source="com.web.gradebook.StudentRepository" target="com.web.gradebook.Group">
+      <point x="63.5" y="-37.0" />
+      <point x="1204.6814236111109" y="720.0" />
+      <point x="1217.66132587031" y="720.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="com.web.gradebook.StudentRepository" target="com.web.gradebook.Student">
+      <point x="-63.5" y="-37.0" />
+      <point x="1077.6814236111109" y="1141.0" />
+      <point x="810.2647569444443" y="1141.0" />
+      <point x="17.08333333333337" y="180.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="1437.7499999999995" y="1463.7499999999998" />
+  <SelectedNodes>
+    <node>com.web.gradebook.GradebookApplicationTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
